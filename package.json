@@ -10,8 +10,8 @@
     "export": "next export",
     "postbuild": "next-sitemap",
     "start": "react-app-rewired  start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
