@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/banner-thumb.svg';
 
 import client1 from 'assets/sponsor/Ig.svg';
 import client2 from 'assets/sponsor/facebook.svg';
