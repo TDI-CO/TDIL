@@ -8,11 +8,14 @@
     "serve": "next start",
     "export": "next export",
     "postbuild": "next-sitemap",
-    "start": "react-app-rewired  start"
+    "start": "react-app-rewired  start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
+    "gh-pages": "^4.0.0",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "9.5.3",
